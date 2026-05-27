@@ -1,0 +1,69 @@
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.widget-chat {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #f5f7fb;
+  overflow: hidden;
+}
+
+.widget-messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.widget-user {
+  align-self: flex-end;
+  background: #4f46e5;
+  color: white;
+  padding: 12px 16px;
+  border-radius: 14px;
+  max-width: 80%;
+  word-break: break-word;
+}
+
+.widget-bot {
+  align-self: flex-start;
+  background: #e9edf8;
+  color: #111827;
+  padding: 12px 16px;
+  border-radius: 14px;
+  max-width: 80%;
+  word-break: break-word;
+}
+
+.widget-input {
+  display: flex;
+  gap: 10px;
+  padding: 15px;
+  background: white;
+  border-top: 1px solid #ddd;
+}
+
+.widget-input input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.widget-input button {
+  background: #4f46e5;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+}

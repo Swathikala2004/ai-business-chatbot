@@ -1,0 +1,52 @@
+.settings-page {
+  margin-top: 30px;
+}
+
+.settings-page h2 {
+  font-size: 32px;
+  color: #111827;
+}
+
+.settings-page p {
+  color: #6b7280;
+  margin-top: 6px;
+}
+
+.settings-card {
+  margin-top: 24px;
+  background: white;
+  padding: 28px;
+  border-radius: 18px;
+  max-width: 700px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.settings-card label {
+  font-weight: 600;
+  color: #374151;
+}
+
+.settings-card input,
+.settings-card textarea,
+.settings-card select {
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid #d1d5db;
+}
+
+.settings-card textarea {
+  min-height: 120px;
+}
+
+.settings-card button {
+  margin-top: 14px;
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+  background: #4f46e5;
+  color: white;
+  cursor: pointer;
+}

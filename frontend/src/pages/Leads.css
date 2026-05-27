@@ -1,0 +1,78 @@
+.leads-page {
+  padding: 30px;
+}
+
+.leads-header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.leads-header h2 {
+  font-size: 36px;
+  color: #111827;
+}
+
+.leads-header p {
+  color: #6b7280;
+  margin-top: 8px;
+}
+
+.lead-form {
+  background: white;
+  padding: 24px;
+  border-radius: 18px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) 140px;
+  gap: 14px;
+  align-items: center;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  margin-bottom: 30px;
+}
+
+.lead-form input,
+.lead-form textarea {
+  width: 100%;
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid #d1d5db;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.lead-form textarea {
+  height: 52px;
+  resize: none;
+}
+
+.lead-form button {
+  height: 52px;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.lead-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.lead-card {
+  background: white;
+  padding: 28px;
+  border-radius: 22px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  text-align: center;
+}
+
+.delete-btn {
+  margin-top: 20px;
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 12px;
+  cursor: pointer;
+}
